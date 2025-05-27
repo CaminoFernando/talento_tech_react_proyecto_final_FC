@@ -1,0 +1,62 @@
+/* Estilo base general */
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #343a40; /* fondo general oscuro */
+  color: #f8f9fa; /* texto claro */
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Envoltorio principal del contenido */
+main {
+  flex: 1;
+  background-color: #495057; /* gris más claro que el navbar */
+}
+
+/* Enlaces */
+a {
+  color: #ffc107;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Títulos destacados */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: #ffc107; /* amarillo Bootstrap (warning) */
+}
+
+/* Separador visual */
+hr {
+  border-color: #ffc107;
+  opacity: 0.75;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  color: #dee2e6;
+  background-color: #212529;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer p:last-child {
+  font-style: italic;
+  color: #adb5bd;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
